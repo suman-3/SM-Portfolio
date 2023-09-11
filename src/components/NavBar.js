@@ -171,7 +171,7 @@ const NavBar = () => {
 
       {isOpen ? (
         <motion.div
-          className="min-w-[70vw] z-30 flex  flex-col justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32"
+          className="min-w-[85vw] z-30 flex  flex-col justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32"
           initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
           animate={{ scale: 1, opacity: 1 }}
         >
@@ -264,7 +264,7 @@ const NavBar = () => {
       ) : null}
 
       {/* logo */}
-      <div className="absolute left-[50%] top-2 translate-x-[-50%]">
+      <div className="absolute left-[50%] top-2 translate-x-[-50%] ">
         <Logo />
       </div>
     </header>

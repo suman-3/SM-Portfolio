@@ -13,6 +13,7 @@ import article5 from "../../public/images/articles/create modal component in rea
 import article6 from "../../public/images/articles/What is higher order component in React.jpg";
 import article7 from "../../public/images/articles/What is Redux with easy explanation.png";
 import article8 from "../../public/images/articles/todo list app built using react redux and framer motion.png";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 const MovingImg = ({ title, img, link }) => {
@@ -72,7 +73,7 @@ const FeaturedArticles = ({ img, title, time, summary, link }) => {
           className="w-full h-auto"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
-          priority 
+          priority
           sizes="(max-width: 768px) 100vw,
           (max-width: 1200px) 50vw,
           50vw"
@@ -84,7 +85,9 @@ const FeaturedArticles = ({ img, title, time, summary, link }) => {
         </h2>
       </Link>
       <p className="text-sm mb-2">{summary}</p>
-      <span className="text-primary font-semibold dark:text-primaryDark">{time}</span>
+      <span className="text-primary font-semibold dark:text-primaryDark">
+        {time}
+      </span>
     </li>
   );
 };
@@ -100,7 +103,9 @@ const Article = ({ img, title, date, link }) => {
      text-dark first:mt-0 border border-solid border-dark border-r-4 border-b-4 dark:bg-dark dark:border-light dark:text-light sm:flex-col"
     >
       <MovingImg title={title} img={img} link={link} />
-      <span className="text-primary font-semibold pl-4 dark:text-primaryDark sm:self-start sm:pl-0 xs:text-sm">{date}</span>
+      <span className="text-primary font-semibold pl-4 dark:text-primaryDark sm:self-start sm:pl-0 xs:text-sm">
+        {date}
+      </span>
     </motion.li>
   );
 };
@@ -112,6 +117,7 @@ const article = () => {
         <title>CodeX | Articles Page</title>
         <meta name="description" content="CodeX description" />
       </Head>
+      <TransitionEffect/>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
