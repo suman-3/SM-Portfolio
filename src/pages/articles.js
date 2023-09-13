@@ -115,7 +115,7 @@ const article = () => {
     <>
       <Head>
         <title>CodeX | Articles Page</title>
-        <meta name="description" content="CodeX description" />
+        <meta name="description" content="Introducing my latest Next.js portfolio app: a sleek, dynamic platform combining modern design and cutting-edge technology. With intuitive navigation and stunning visuals, it's tailored to showcase your skills. Elevate your online presence and highlight your expertise with Next.js." />
       </Head>
       <TransitionEffect/>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
