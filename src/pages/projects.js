@@ -164,7 +164,7 @@ const projects = () => {
             </div>
             <div className="col-span-6  sm:col-span-12 ">
               <Project
-                title="BEROTOT GYM web application"
+                title=" GYM web front application"
                 img={project20}
                 summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
@@ -256,7 +256,7 @@ const projects = () => {
             </div>
             <div className="col-span-6  sm:col-span-12 ">
               <Project
-                title="Apple Vision Pro advertisement(clone)webpage"
+                title="Apple Vision Pro clone webpage"
                 img={project15}
                 summary="Web application created using 3D elements"
                 link="https://business-web-bice.vercel.app/"
