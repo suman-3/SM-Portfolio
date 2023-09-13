@@ -58,8 +58,8 @@ const Experience = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
             position="SPIE OPTICA UEMK CHAPTER"
-            company="UEMK"
-            companyLink="https://uem.edu.in/uem-kolkata/"
+            company="UEMK SPIE OPTICA GROUP"
+            companyLink="https://spie-optica-uemk.vercel.app/"
             time=" 2022-Present"
             address="| New Town, Kolkata"
             work="Creating the SPIE Optica website was a significant milestone in my web development journey. This experience not only showcased my technical proficiency but also demonstrated my ability to merge design aesthetics with functional requirements."
@@ -67,7 +67,7 @@ const Experience = () => {
           <Details
             position="Versatile Project Contributions"
             company="Own Projects"
-            companyLink="http://localhost:3000/projects"
+            // companyLink=""
             time=" 2022-Present"
             work="In my web development journey, I've tackled a diverse range of projects. From creating Threads Clone to contributing to Whatsapp and Airbnb Clones, developing E-Commerce platforms, to crafting entertainment-focused projects like Spotify and a Movie Website with TMDB API. I've even ventured into 3D web design. These experiences showcase my technical prowess and collaborative skills in seamlessly integrating complex functionalities."
           />
