@@ -47,7 +47,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         target="_blank"
         className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full"
       >
-        <Image src={img} alt="project image" className="w-full h-auto" />
+        <Image priority src={img} alt="project image" className="w-full h-auto" />
       </Link>
 
       <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-0">
