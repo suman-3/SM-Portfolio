@@ -106,11 +106,11 @@ const NavBar = () => {
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="mx-4" />
           <CustomLink href="/projects" title="Projects" className="mx-4" />
-          <CustomLink href="/articles" title="Articles" className="ml-4" />
+          {/* <CustomLink href="/articles" title="Articles" className="ml-4" /> */}
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="/"
+            href="https://twitter.com/SumanMonda97518"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -119,7 +119,7 @@ const NavBar = () => {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href="/"
+            href="https://github.com/suman-3"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -128,7 +128,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="/"
+            href="https://www.linkedin.com/in/mon03/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -137,7 +137,7 @@ const NavBar = () => {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href="/"
+            href="https://in.pinterest.com/mondalsumanrock20/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -146,7 +146,7 @@ const NavBar = () => {
             <PinterestIcon />
           </motion.a>
           <motion.a
-            href="/"
+            href="https://dribbble.com/suman9732"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -203,7 +203,7 @@ const NavBar = () => {
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="/"
+              href="https://twitter.com/SumanMonda97518"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -212,7 +212,7 @@ const NavBar = () => {
               <TwitterIcon />
             </motion.a>
             <motion.a
-              href="/"
+              href="https://github.com/suman-3"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -221,7 +221,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="/"
+              href="https://www.linkedin.com/in/mon03/"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -230,7 +230,7 @@ const NavBar = () => {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href="/"
+              href="https://in.pinterest.com/mondalsumanrock20/"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -239,7 +239,7 @@ const NavBar = () => {
               <PinterestIcon />
             </motion.a>
             <motion.a
-              href="/"
+              href="https://dribbble.com/suman9732"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}

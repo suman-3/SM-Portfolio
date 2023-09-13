@@ -47,25 +47,17 @@ const Education = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
+            type="Bachelor Of Technolgy In Computer Science"
+            time="2022-2026"
+            place="University of Engineering and Management, Kolkata (UEMK)"
             info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
 Intelligence."
           />
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-Intelligence."
-          />
-          <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-Intelligence."
+            type="Educational Background in Pure Science from HS Board"
+            time="2020-2022"
+            place="Kamarpukur Ramakrishna Misiion M.P. School"
+            info="I pursued my high school education under the curriculum of the HS Board, focusing primarily on subjects falling within the realm of Pure Science. This educational foundation provided me with a comprehensive understanding of various scientific disciplines."
           />
         </ul>
       </div>

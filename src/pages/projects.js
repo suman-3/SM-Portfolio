@@ -5,7 +5,28 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/My_Git_Project_SS/1.png"
+import project2 from "../../public/My_Git_Project_SS/2.png"
+import project3 from "../../public/My_Git_Project_SS/3.png"
+import project4 from "../../public/My_Git_Project_SS/4.png"
+import project5 from "../../public/My_Git_Project_SS/5.png"
+import project6 from "../../public/My_Git_Project_SS/6.png"
+import project7 from "../../public/My_Git_Project_SS/7.png"
+import project8 from "../../public/My_Git_Project_SS/8.png"
+import project9 from "../../public/My_Git_Project_SS/9.png"
+import project10 from "../../public/My_Git_Project_SS/10.png"
+import project11 from "../../public/My_Git_Project_SS/11.png"
+import project12 from "../../public/My_Git_Project_SS/12.png"
+import project13 from "../../public/My_Git_Project_SS/13.png"
+import project14 from "../../public/My_Git_Project_SS/14.png"
+import project15 from "../../public/My_Git_Project_SS/15.png"
+import project16 from "../../public/My_Git_Project_SS/16.png"
+import project17 from "../../public/My_Git_Project_SS/17.png"
+import project18 from "../../public/My_Git_Project_SS/18.png"
+import project19 from "../../public/My_Git_Project_SS/19.png"
+import project20 from "../../public/My_Git_Project_SS/20.png"
+
+
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -132,77 +153,222 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12 ">
               <FeaturedProject
-                title="Crypto Screener Application"
+                title="SPIE OPTICA STUDENT CHAPTER UEMK OFFICIAL WEBSITE"
                 img={project1}
-                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-          local currency."
-                link="/"
-                type="Featured Project"
-                github="/"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              {" "}
-              <Project
-                title="Crypto Screener Application"
-                img={project1}
-                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-          local currency."
-                link="/"
-                type="Project 1"
-                github="/"
-              />
-            </div>
-            <div className="col-span-6  sm:col-span-12">
-              <Project
-                title="Crypto Screener Application"
-                img={project1}
-                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-          local currency."
-                link="/"
-                type="Project 2"
-                github="/"
-              />
-            </div>
-            <div className="col-span-12 ">
-              <FeaturedProject
-                title="Crypto Screener Application"
-                img={project1}
-                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-          local currency."
-                link="/"
-                type="Featured Project"
-                github="/"
-              />
-            </div>
-            <div className="col-span-6  sm:col-span-12">
-              <Project
-                title="Crypto Screener Application"
-                img={project1}
-                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-          local currency."
-                link="/"
-                type="Project 3"
-                github="/"
+                summary="    Promoted involvement in chapter events, activities, and
+                member profiles, enhancing interaction within the community."
+                link="https://spie-optica-uemk.vercel.app/"
+                type="Fullstack Webpage"
+                github="https://github.com/UEMKSPIEOPTICA/SPIE.OPTICA.UEMK"
               />
             </div>
             <div className="col-span-6  sm:col-span-12 ">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
+                title="BEROTOT GYM web application"
+                img={project20}
                 summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
           local currency."
-                link="/"
-                type="Project 4"
-                github="/"
+                link="https://gym-web-one.vercel.app/"
+                type="GYM Website"
+                github="https://github.com/suman-3/GYM.web"
               />
             </div>
+            <div className="col-span-6  sm:col-span-12">
+              <Project
+                title="Movie application"
+                img={project8}
+                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+          local currency."
+                link="https://suman-3.github.io/movie.flex.mon/"
+                type="Frontend Webpage"
+                github="https://github.com/suman-3/movie.flex.mon"
+              />
+            </div>
+            <div className="col-span-12 ">
+              <FeaturedProject
+                title="Tvflix website using TMDB API"
+                img={project7}
+                summary="  In the world of innovation and technology, one individual's vision has transformed the entertainment landscape. With creativity and code, a brilliant mind brought forth a groundbreaking creation - a TVflix movie application, powered by the robust TMDB API."
+                link="https://suman-3.github.io/Tvflix/"
+                type="Websites Using API Services"
+                github="https://github.com/suman-3/Tvflix"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12">
+              <Project
+                title="NEXUS image Gallery using API"
+                img={project12}
+                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+          local currency."
+                link="https://suman-3.github.io/NeXus2.0/"
+                type="Search You Image Here"
+                github="https://github.com/suman-3/NeXus2.0"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                title="Get details of all SUPERHERO"
+                img={project6}
+                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+          local currency."
+                link="https://suman-3.github.io/superhero.mon/"
+                type="Mark Your Favourite Super Hero"
+                github="https://github.com/suman-3/superhero.mon"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                title="Weather Checker Application"
+                img={project19}
+                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+          local currency."
+                link="https://weather-hazel-seven.vercel.app/"
+                type="Weather app using API"
+                github="https://github.com/suman-3/weather"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                title="QR CODE generator application"
+                img={project9}
+                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+          local currency."
+                link="https://suman-3.github.io/QR_code/"
+                type="Create QR code using API"
+                github="https://github.com/suman-3/QR_code"
+              />
+            </div>
+            <div className="col-span-12 ">
+              <FeaturedProject
+                title="Web application created using 3D elements"
+                img={project17}
+                summary="In the ever-evolving landscape of web development, the integration of three-dimensional elements has opened up exciting new avenues for creativity and user engagement. One notable project I undertook was the creation of a web application that harnessed the power of 3D elements to deliver an immersive user experience."
+                link="https://magma-olive.vercel.app/"
+                type="3D Webpages "
+                github="https://github.com/suman-3/magma"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                title="Apple Vision Pro advertisement(clone)webpage"
+                img={project15}
+                summary="Web application created using 3D elements"
+                link="https://business-web-bice.vercel.app/"
+                type="Clone Project"
+                github="https://github.com/suman-3/business.web"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                title="3D movemnt animation while scrolling"
+                img={project16}
+                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+          local currency."
+                link="https://github.com/suman-3/CodeX"
+                type="webpage using Scroll Trigger"
+                github="https://github.com/suman-3/CodeX"
+              />
+            </div>
+            <div className="col-span-12 ">
+              <FeaturedProject
+                title="Honey - Online food shop demo webpage"
+                img={project10}
+                summary= {`  I conceptualized and developed "Honey," an innovative online food shop demo webpage. Honey offers users a seamless and user-friendly platform to browse, select, and order a wide range of culinary delights from the comfort of their homes.`}
+                link="https://suman-3.github.io/food.honey/"
+                type="Web Applications for Business Purpose"
+                github="https://github.com/suman-3/food.honey"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Cara - Shopping web application"
+                img={project4}
+                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+          local currency."
+                link="https://cara-suman.vercel.app/"
+                type="Demo of a E-Commerce application"
+                github="https://github.com/suman-3/cara.suman"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                 title="EGATOR - Grow with us"
+                 img={project14}
+                 summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+           local currency."
+                 link="https://suman-3.github.io/EGATOR/"
+                 type="Education related demo webpage"
+                 github="https://github.com/suman-3/EGATOR"
+              />
+            </div>
+            <div className="col-span-12 ">
+              <FeaturedProject
+                title="QuickDecide: Rock, Paper, Scissors Game"
+                img={project13}
+                summary="   In the realm of web development, creating interactive and engaging games is a rewarding endeavor. One such project I undertook was the development of a web-based Rock, Paper, Scissors game webpage. This project aimed to provide users with a classic gaming experience while showcasing the potential for interactive web applications."
+                link="https://suman-3.github.io/game.r.p.s/"
+                type="Created games using Javascript "
+                github="https://github.com/suman-3/game.r.p.s"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                 title="Meomory Reminder Game"
+                 img={project11}
+                 summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+           local currency."
+                 link="https://suman-3.github.io/memory_game/"
+                //  type="games using javascript"
+                 github="https://github.com/suman-3/memory_game"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                 title="TIC TAC TOE game"
+                 img={project2}
+                 summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+           local currency."
+                 link="https://suman-3.github.io/tic_tac.game/"
+                //  type="Featured Project"
+                 github="https://github.com/suman-3/game.Tic_Tac_Toe"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                 title="Draw Your pattern here!"
+                 img={project3}
+                 summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+           local currency."
+                 link="https://suman-3.github.io/Cross_Switch/"
+                //  type="Featured Project"
+                 github="https://github.com/suman-3/Cross_Switch"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                 title="Hangman Game"
+                 img={project5}
+                 summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+           local currency."
+                 link="https://suman-3.github.io/hangman.game/"
+                //  type="Featured Project"
+                 github="https://github.com/suman-3/hangman.game"
+              />
+            </div>
+            
           </div>
         </Layout>
       </main>

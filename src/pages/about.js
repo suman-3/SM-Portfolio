@@ -53,23 +53,13 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I'm CodeX, a web developer and UI/UX designer with a passion
-                for creating beautiful, functional, and user-centered digital
-                experiences. With 4 years of experience in the field. I am
-                always looking for new and innovative ways to bring my clients'
-                visions to life.
+              Hi, I'm Suman Mondal, a budding web developer with a focus on database management. Despite being new to the professional world, I bring with me extensive project and webpage building experience. This journey has instilled in me a fresh perspective and an eagerness to craft exceptional digital experiences.
               </p>
               <p className=" my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty - it's about solving problems and creating intuitive,
-                enjoyable experiences for users.
+              My approach to web development and database management is grounded in a passion for delivering excellence. I firmly believe that every project, regardless of its size or complexity, deserves to be executed with precision and creativity. This dedication to quality drives my continuous learning and fuels my exploration of cutting-edge technologies.
               </p>
               <p className="font-medium">
-                Whether I'm working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+            
               </p>
             </div>
 
@@ -89,7 +79,7 @@ const about = () => {
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-6xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={50} />+
+                  <AnimatedNumbers value={10} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   satisfied clients
@@ -97,7 +87,7 @@ const about = () => {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-6xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={30} />+
+                  <AnimatedNumbers value={25} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   projects completed
@@ -105,7 +95,7 @@ const about = () => {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-6xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={4} />+
+                  <AnimatedNumbers value={1} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   year of experience
