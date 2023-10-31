@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Demo Website Link() 
+## Check out the Demo of this [website.](https://suman-mondal-portfolio.vercel.app/) 
 
 ## Getting Started
 
@@ -36,5 +36,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 # 🤗 Follow me on [instagram](https://www.instagram.com/web_mastery03/) to get projects more like this
-# [Web Mastery]() visit my portfolio  website
+## [Web Mastery](https://suman-mondal-portfolio.vercel.app/) visit my portfolio  website
 
