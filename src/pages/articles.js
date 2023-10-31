@@ -114,7 +114,7 @@ const article = () => {
   return (
     <>
       <Head>
-        <title>CodeX | Articles Page</title>
+        <title>Web Mastery | Articles Page</title>
         <meta name="description" content="Introducing my latest Next.js portfolio app: a sleek, dynamic platform combining modern design and cutting-edge technology. With intuitive navigation and stunning visuals, it's tailored to showcase your skills. Elevate your online presence and highlight your expertise with Next.js." />
       </Head>
       <TransitionEffect/>
