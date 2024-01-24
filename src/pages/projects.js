@@ -33,6 +33,16 @@ import project25 from "../../public/My_Git_Project_SS/25.png";
 import project26 from "../../public/My_Git_Project_SS/26.png";
 import project27 from "../../public/My_Git_Project_SS/27.png";
 import project28 from "../../public/My_Git_Project_SS/28.png";
+import project29 from "../../public/My_Git_Project_SS/29.png";
+import project30 from "../../public/My_Git_Project_SS/30.png";
+import project31 from "../../public/My_Git_Project_SS/31.png";
+import project32 from "../../public/My_Git_Project_SS/32.png";
+import project33 from "../../public/My_Git_Project_SS/33.png";
+import project34 from "../../public/My_Git_Project_SS/34.png";
+import project35 from "../../public/My_Git_Project_SS/35.png";
+import project36 from "../../public/My_Git_Project_SS/36.png";
+import project37 from "../../public/My_Git_Project_SS/37.png";
+import project38 from "../../public/My_Git_Project_SS/38.png";
 
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -172,48 +182,44 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12 ">
               <FeaturedProject
-                title="SPIE OPTICA STUDENT CHAPTER UEMK OFFICIAL WEBSITE"
-                img={project1}
-                summary="    Promoted involvement in chapter events, activities, and
-                member profiles, enhancing interaction within the community."
-                link="https://spie-optica-uemk.vercel.app/"
-                type="Fullstack Webpage"
-                github="https://github.com/UEMKSPIEOPTICA/SPIE.OPTICA.UEMK"
+                title="BLOGSPACE DEV"
+                img={project35}
+                summary="Discover the joy of expressing your thoughts, ideas, and stories in our vibrant blogging community! 📝✨"
+                link="https://blogspace-dev.vercel.app/"
+                type="Fullstack Blogging Webpage"
+                github="https://github.com/suman-3/Blogspace_Client"
               />
             </div>
             <div className="col-span-6  sm:col-span-12 ">
               <Project
-                title=" GYM web front application"
-                img={project20}
-                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-          local currency."
-                link="https://jym-web-ruby.vercel.app/"
-                type="GYM Website"
-                github="https://github.com/suman-3/JYM_Web"
+                title="README.md Creator"
+                img={project29}
+                summary="Effortlessly craft polished README files with our intuitive web application. Enhance project presentation for seamless collaboration, whether solo or in a team. Elevate your documentation game with ease."
+                link="https://readme-creator-fawn.vercel.app/"
+                type="Simplify Project Documentation"
+                github="https://github.com/suman-3/README_Creator_Next.Js_App"
               />
             </div>
             <div className="col-span-6  sm:col-span-12">
               <Project
-                title="MOVIEFLIX DEMO WEB"
-                img={project8}
-                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-          local currency."
-                link="https://movie-web-gilt.vercel.app/"
-                type="Movie website design"
-                github="https://github.com/suman-3/Movie_Web"
+                title="Export script into Image"
+                img={project31}
+                summary={""}
+                link="https://code-script-image.vercel.app/"
+                type="Script to Image"
+                github="https://github.com/suman-3/Code_Script_Image"
               />
             </div>
 
             <div className="col-span-12 ">
               <FeaturedProject
-                title="Created a Full Stack Social Media App | React JS, Appwrite, Tailwind CSS, React Query"
-                img={project21}
-                summary="Build a modern social app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance using React JS, Appwrite, TypeScript, and more."
-                link="https://snapgram-social.vercel.app/sign-in"
-                type="Fullstack Webpage"
-                github="https://github.com/suman-3/Snapgram"
+                title="SPIE OPTICA STUDENT CHAPTER UEMK OFFICIAL WEBSITE"
+                img={project1}
+                summary="    Promoted involvement in chapter events, activities, and
+                member profiles, enhancing interaction within the community."
+                link="https://spie-optica-uemk.vercel.app/"
+                type="College Student Club Project"
+                github="https://github.com/UEMKSPIEOPTICA/SPIE.OPTICA.UEMK"
               />
             </div>
             <div className="col-span-6  sm:col-span-12 ">
@@ -238,6 +244,107 @@ const projects = () => {
                 link="https://the-weirdos-nine.vercel.app/"
                 type="The Weirdos"
                 github="https://github.com/suman-3/The_Weirdos"
+              />
+            </div>
+
+
+            <div className="col-span-12 ">
+              <FeaturedProject
+                title="WIBE-STUDIO Shopping Collection"
+                img={project33}
+                summary="Build a Stunning Fashion Studio Website with React JS [ Locomotive Scroll + GSAP + Framer Motion ]"
+                link="https://wibe-studio-beta.vercel.app/"
+                type="E-Commerce Page Frontend"
+                github="https://github.com/suman-3/Wibe_Studio"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                title="Responsive Halloween Website 🎃"
+                img={project34}
+                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+          local currency."
+                link="https://halloween-web-rho.vercel.app/"
+                type="Frontend Project"
+                github="https://github.com/suman-3/Halloween_Web"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12">
+              <Project
+                title="GameX - Gaming website"
+                img={project32}
+                summary=" "
+                link="https://game-x-landing-page.vercel.app/"
+                type="Landing Page"
+                github="https://github.com/suman-3/GameX_landing_page"
+              />
+            </div>
+
+
+            <div className="col-span-12 ">
+              <FeaturedProject
+                title="Crypto Bucks Web Appplication "
+                img={project36}
+                summary="Build Feature Rich Crypto Screener App with Tailwind CSS ⭐"
+                link="https://crypto-bucks-coral.vercel.app/"
+                type="Crypto Currency Checker"
+                github="https://github.com/suman-3/CryptoBucks"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                title="Messenger Clone NEXT 13.Js Project"
+                img={project37}
+                summary=""
+                link="https://messenger-one-theta.vercel.app/"
+                type="Realtime Chat Application"
+                github="https://github.com/suman-3/Messenger_App"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12">
+              <Project
+                title="Query: Your Developer Hub for Coding Wisdom and Collaboration"
+                img={project38}
+                summary=" "
+                link="https://query-chi.vercel.app/"
+                type="Fullstack Webpage"
+                github="https://github.com/suman-3/Query"
+              />
+            </div>
+
+            <div className="col-span-12 ">
+              <FeaturedProject
+                title="Created a Full Stack Social Media App | React JS, Appwrite, Tailwind CSS, React Query"
+                img={project21}
+                summary="Build a modern social app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance using React JS, Appwrite, TypeScript, and more."
+                link="https://snapgram-social.vercel.app/sign-in"
+                type="Fullstack Webpage"
+                github="https://github.com/suman-3/Snapgram"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                title=" GYM web front application"
+                img={project20}
+                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+          local currency."
+                link="https://jym-web-ruby.vercel.app/"
+                type="GYM Website"
+                github="https://github.com/suman-3/JYM_Web"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12">
+              <Project
+                title="MOVIEFLIX DEMO WEB"
+                img={project8}
+                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+          It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+          local currency."
+                link="https://movie-web-gilt.vercel.app/"
+                type="Movie website design"
+                github="https://github.com/suman-3/Movie_Web"
               />
             </div>
 
@@ -309,7 +416,6 @@ const projects = () => {
               />
             </div>
 
-
             <div className="col-span-12 ">
               <FeaturedProject
                 title="Honey - Online food shop demo webpage"
@@ -344,8 +450,6 @@ const projects = () => {
                 github="https://github.com/suman-3/Sidcup_Family_Golf"
               />
             </div>
-
-
 
             <div className="col-span-12 ">
               <FeaturedProject
@@ -462,8 +566,6 @@ const projects = () => {
                 github="https://github.com/suman-3/hangman.game"
               />
             </div> */}
-
-
           </div>
         </Layout>
       </main>
