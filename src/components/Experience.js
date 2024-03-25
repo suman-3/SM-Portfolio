@@ -56,6 +56,22 @@ const Experience = () => {
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+        <Details
+            position="TECH & WEB DEV LEAD"
+            company="UREKATHON UEMK "
+            companyLink="https://ecstasia.uem.edu.in/"
+            time=" 2024"
+            address="| UEMK New Town Campuss"
+            work="As the Tech Lead for UREKATHON, our college's hackathon, I developed the Website  and coordinated the team. "
+          />
+        <Details
+            position="Member of Ecstasia web dev Team"
+            company="ECSTASIA UEMK"
+            companyLink="https://ecstasia.uem.edu.in/"
+            time=" 2024"
+            address="| UEMK New Town Campuss"
+            work="Working collaboratively within a team has significantly enhanced my performance, fostering a deeper understanding of diverse codebases and tech stacks. Through this collective effort, I've gained invaluable insights, honed my problem-solving skills, and cultivated a versatile approach to tackling challenges in various projects, amplifying our collective success."
+          />
           <Details
             position="SPIE OPTICA UEMK CHAPTER"
             company="UEMK SPIE OPTICA GROUP"
@@ -71,6 +87,7 @@ const Experience = () => {
             time=" 2022-Present"
             work="In my web development journey, I've tackled a diverse range of projects. From creating Threads Clone to contributing to Whatsapp and Airbnb Clones, developing E-Commerce platforms, to crafting entertainment-focused projects like Spotify and a Movie Website with TMDB API. I've even ventured into 3D web design. These experiences showcase my technical prowess and collaborative skills in seamlessly integrating complex functionalities."
           />
+          
         </ul>
       </div>
     </div>
