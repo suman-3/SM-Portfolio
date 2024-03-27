@@ -43,6 +43,12 @@ import project35 from "../../public/My_Git_Project_SS/35.png";
 import project36 from "../../public/My_Git_Project_SS/36.png";
 import project37 from "../../public/My_Git_Project_SS/37.png";
 import project38 from "../../public/My_Git_Project_SS/38.png";
+import project39 from "../../public/My_Git_Project_SS/39.png";
+import project40 from "../../public/My_Git_Project_SS/40.png";
+import project41 from "../../public/My_Git_Project_SS/41.png";
+import project42 from "../../public/My_Git_Project_SS/42.png";
+import project43 from "../../public/My_Git_Project_SS/43.png";
+import project44 from "../../public/My_Git_Project_SS/44.png";
 
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -180,6 +186,7 @@ const projects = () => {
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+
             <div className="col-span-12 ">
               <FeaturedProject
                 title="BLOGSPACE DEV"
@@ -188,6 +195,49 @@ const projects = () => {
                 link="https://blogspace-dev.vercel.app/"
                 type="Fullstack Blogging Webpage"
                 github="https://github.com/suman-3/Blogspace_Client"
+              />
+            </div>
+            
+            <div className="col-span-6  sm:col-span-12">
+              <Project
+                title="Imaginify: modify images using AI"
+                img={project41}
+                summary={""}
+                link="https://imaginify-web.vercel.app/"
+                type="AI SaaS Platform"
+                github="https://github.com/suman-3/Imaginify"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12">
+              <Project
+                title="Converting script to an Image"
+                img={project31}
+                summary={""}
+                link="https://code-script-image.vercel.app/"
+                type="Script to Image"
+                github="https://github.com/suman-3/Code_Script_Image"
+              />
+            </div>
+
+
+            <div className="col-span-12 ">
+              <FeaturedProject
+                title="Lingo Language Learning"
+                img={project42}
+                summary="🎨 Build a Duolingo Clone with Next.js 14 for a stunning UI using Shadcn components. 🏆 Earn points, unlock quests, and shop with hearts! 🚀 Deploy on Vercel for seamless performance."
+                link="https://lingo-learning.vercel.app/"
+                type="AI Saas Platform with Stripe"
+                github="https://github.com/suman-3/Lingo-web"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                title="Board Collaborative White Board"
+                img={project44}
+                summary=""
+                link="https://board-xo.vercel.app/"
+                type="Next.js 14 with Real-time Features and Intuitive Tools"
+                github="https://github.com/suman-3/Board"
               />
             </div>
             <div className="col-span-6  sm:col-span-12 ">
@@ -200,16 +250,40 @@ const projects = () => {
                 github="https://github.com/suman-3/README_Creator_Next.Js_App"
               />
             </div>
-            <div className="col-span-6  sm:col-span-12">
-              <Project
-                title="Export script into Image"
-                img={project31}
-                summary={""}
-                link="https://code-script-image.vercel.app/"
-                type="Script to Image"
-                github="https://github.com/suman-3/Code_Script_Image"
+
+            <div className="col-span-12 ">
+              <FeaturedProject
+                 title="DEV COMMUNITY"
+                 img={project39}
+                summary="Craft a vibrant real-time messaging platform with Socket.io 🚀. Enable file attachments, editing, and deletion while supporting Text, Audio, and Video calls 📞. Utilize Prisma ORM, MySQL via Planetscale, and Clerk for authentication 🔒. Customize UI with TailwindCSS and ShadcnUI 🎨."
+                link="https://dev-community-one.vercel.app/"
+                type="Real-time Messaging & Call Platform 🌐"
+                github="https://github.com/suman-3/discord-clone"
               />
             </div>
+            
+            <div className="col-span-6  sm:col-span-12">
+              <Project
+                title="I Phone showcase with 3D Visualization"
+                img={project40}
+                summary={""}
+                link="https://i-phone-one.vercel.app/"
+                type="Web 3 Landing Page"
+                github="https://github.com/suman-3/3D-iPhone"
+              />
+            </div>
+            <div className="col-span-6  sm:col-span-12 ">
+              <Project
+                title="Dogger Game"
+                img={project43}
+                summary=""
+                link="https://dogger-game.vercel.app/"
+                type="Developed a game using HTML/CSS/JS"
+                github="https://github.com/suman-3/dogger-game"
+              />
+            </div>
+
+           
 
             <div className="col-span-12 ">
               <FeaturedProject
@@ -247,7 +321,6 @@ const projects = () => {
               />
             </div>
 
-
             <div className="col-span-12 ">
               <FeaturedProject
                 title="WIBE-STUDIO Shopping Collection"
@@ -280,7 +353,6 @@ const projects = () => {
                 github="https://github.com/suman-3/GameX_landing_page"
               />
             </div>
-
 
             <div className="col-span-12 ">
               <FeaturedProject
@@ -508,64 +580,6 @@ const projects = () => {
               />
             </div>
 
-            {/* <div className="col-span-12 ">
-              <FeaturedProject
-                title="QuickDecide: Rock, Paper, Scissors Game"
-                img={project13}
-                summary="   In the realm of web development, creating interactive and engaging games is a rewarding endeavor. One such project I undertook was the development of a web-based Rock, Paper, Scissors game webpage. This project aimed to provide users with a classic gaming experience while showcasing the potential for interactive web applications."
-                link="https://suman-3.github.io/game.r.p.s/"
-                type="Created games using Javascript "
-                github="https://github.com/suman-3/game.r.p.s"
-              />
-            </div>
-            <div className="col-span-6  sm:col-span-12 ">
-              <Project
-                title="Meomory Reminder Game"
-                img={project11}
-                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-           local currency."
-                link="https://suman-3.github.io/memory_game/"
-                //  type="games using javascript"
-                github="https://github.com/suman-3/memory_game"
-              />
-            </div>
-            <div className="col-span-6  sm:col-span-12 ">
-              <Project
-                title="TIC TAC TOE game"
-                img={project2}
-                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-           local currency."
-                link="https://suman-3.github.io/tic_tac.game/"
-                //  type="Featured Project"
-                github="https://github.com/suman-3/game.Tic_Tac_Toe"
-              />
-            </div>
-            <div className="col-span-6  sm:col-span-12 ">
-              <Project
-                title="Draw Your pattern here!"
-                img={project3}
-                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-           local currency."
-                link="https://suman-3.github.io/Cross_Switch/"
-                //  type="Featured Project"
-                github="https://github.com/suman-3/Cross_Switch"
-              />
-            </div>
-            <div className="col-span-6  sm:col-span-12 ">
-              <Project
-                title="Hangman Game"
-                img={project5}
-                summary="    A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-           It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-           local currency."
-                link="https://suman-3.github.io/hangman.game/"
-                //  type="Featured Project"
-                github="https://github.com/suman-3/hangman.game"
-              />
-            </div> */}
           </div>
         </Layout>
       </main>

@@ -2,27 +2,34 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
-import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
+import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
+import CrispChat from "@/components/crispBot";
 export default function Home() {
   return (
     <>
       <Head>
         <title>Web Mastery | Home Page</title>
-        <meta name="description" content="Introducing my latest Next.js portfolio app: a sleek, dynamic platform combining modern design and cutting-edge technology. With intuitive navigation and stunning visuals, it's tailored to showcase your skills. Elevate your online presence and highlight your expertise with Next.js." />
+        <meta
+          name="description"
+          content="Introducing my latest Next.js portfolio app: a sleek, dynamic platform combining modern design and cutting-edge technology. With intuitive navigation and stunning visuals, it's tailored to showcase your skills. Elevate your online presence and highlight your expertise with Next.js."
+        />
       </Head>
-      <TransitionEffect/>
+      <TransitionEffect />
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light ">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full sm:mt-9 lg:flex-col">
             <div className="w-1/2 md:w-full">
-              <Image src={profilePic} alt="Suman" className="w-full  h-auto lg:hidden md:inline-block md:w-full"
-              priority 
-              sizes="(max-width: 768px) 100vw,
+              <Image
+                src={profilePic}
+                alt="Suman"
+                className="w-full  h-auto lg:hidden md:inline-block md:w-full"
+                priority
+                sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               50vw"
               />
@@ -46,7 +53,6 @@ export default function Home() {
                   hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4
                   md:text-base"
                   // download={true}
-                
                 >
                   Resume
                   <LinkArrow className={"w-6 ml-1"} />
@@ -63,10 +69,11 @@ export default function Home() {
           </div>
         </Layout>
 
-        <HireMe/>
+        <HireMe />
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
-          <Image src={lightBulb} alt="CodeX" className="w-full h-auto"/>
+          <Image src={lightBulb} alt="CodeX" className="w-full h-auto" />
         </div>
+        <CrispChat/>
       </main>
     </>
   );
